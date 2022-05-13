@@ -1,0 +1,17 @@
+.user-table {
+	table-layout: fixed;
+}
+
+.user-table,
+.user-table__header-cell,
+.user-table__cell {
+	border: 1px solid #000;
+	border-collapse: collapse;
+
+	width: 100%;
+}
+
+.user-table__header-cell,
+.user-table__cell {
+	padding: 5px;
+}
